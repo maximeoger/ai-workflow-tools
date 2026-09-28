@@ -1,0 +1,17 @@
+{
+  "name": "ai-workflow-tools",
+  "owner": { "name": "Maxime Oger" },
+  "description": "Ma collection d'outils pour mon workflow IA",
+  "plugins": [
+    {
+      "name": "brain",
+      "source": "./plugins/brain",
+      "description": "Skills qui alimentent le second cerveau Obsidian (retex, …)"
+    },
+    {
+      "name": "dev-tools",
+      "source": "./plugins/dev-tools",
+      "description": "Outillage de workflow dev (new-workspace, …)"
+    }
+  ]
+}
