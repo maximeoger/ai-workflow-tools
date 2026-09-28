@@ -32,4 +32,4 @@ Ou activer l'auto-update de la marketplace dans `/plugin` → Marketplaces.
 1. Créer `plugins/<plugin>/skills/<nom-du-skill>/SKILL.md` (frontmatter `name` + `description`).
 2. Pour un nouveau plugin : créer `plugins/<plugin>/.claude-plugin/plugin.json` et l'ajouter au tableau `plugins` de `.claude-plugin/marketplace.json`.
 3. Valider : `claude plugin validate .`
-4. Commit + push, puis `claude plugin update <plugin>@ai-workflow-tools`.
+4. Commit sur une branche dédiée, push, puis ouvrir une PR vers `master` (pas de push direct sur `master`, cf. `CLAUDE.md`). Après merge : `claude plugin update <plugin>@ai-workflow-tools`.
